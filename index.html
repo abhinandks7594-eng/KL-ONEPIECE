@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ONE PIECE Free Fire Guild — more than a guild, we are a family.">
+  <title>ONE PIECE | Free Fire Guild</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="ONE PIECE home">
+      <span>ONE PIECE</span>
+    </a>
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav class="nav" id="nav">
+      <a class="active" href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#members">Members</a>
+      <a href="#tournaments">Tournaments</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#news">News</a>
+      <a href="#join">Join Us</a>
+    </nav>
+    <a class="header-cta" href="#join">Join Guild</a>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-art"></div>
+      <div class="hero-content">
+        <p class="eyebrow">FREE FIRE GUILD</p>
+        <h1>ONE<span>PIECE</span></h1>
+        <h2>MORE THAN A GUILD <b>—</b> WE ARE <em>FAMILY</em></h2>
+        <p class="quote">“Dreams don't work unless you do.”</p>
+        <a class="primary-btn" href="#join">Join Our Guild <span>→</span></a>
+      </div>
+      <div class="hero-badge">PLAY<br>FIGHT<br>WIN<br><i>TOGETHER</i></div>
+    </section>
+
+    <section class="stats" aria-label="Guild statistics">
+      <div><strong>50+</strong><span>Active Members</span></div>
+      <div><strong>15+</strong><span>Tournaments Played</span></div>
+      <div><strong>10+</strong><span>Booyah Wins</span></div>
+      <div><strong>100%</strong><span>Team Spirit</span></div>
+    </section>
+
+    <section class="content-grid">
+      <article class="panel about" id="about">
+        <div class="section-title"><span>01</span><h2>ABOUT <i>ONEPIECE</i></h2></div>
+        <p>ONEPIECE is a Free Fire guild built with passion, teamwork and the ambition to be the best. We are not just a guild — we are a family. Here, every member is valuable, and every dream matters.</p>
+        <div class="values">
+          <div>👥 <b>Teamwork</b><small>Always</small></div>
+          <div>🎯 <b>Discipline</b><small>& Growth</small></div>
+          <div>🛡️ <b>Respect</b><small>For All</small></div>
+          <div>🎮 <b>Play</b><small>For Fun</small></div>
+        </div>
+      </article>
+
+      <article class="panel members" id="members">
+        <div class="section-title"><span>02</span><h2>FEATURED <i>MEMBERS</i></h2><a href="#members">View All →</a></div>
+        <div class="member-list" id="memberList">
+          <div class="member"><div class="avatar">L</div><h3>LuffyOP</h3><small>👑 Leader</small><b>Heroic</b><code>UID: 123456789</code></div>
+          <div class="member"><div class="avatar">Z</div><h3>ZoroX</h3><small>Co-Leader</small><b>Heroic</b><code>UID: 987654321</code></div>
+          <div class="member"><div class="avatar">N</div><h3>NamiFF</h3><small>Member</small><b>Master</b><code>UID: 654321987</code></div>
+          <div class="member"><div class="avatar">S</div><h3>Sanji_777</h3><small>Member</small><b>Master</b><code>UID: 456789123</code></div>
+          <div class="member"><div class="avatar">C</div><h3>ChopperFF</h3><small>Member</small><b>Diamond I</b><code>UID: 789123456</code></div>
+        </div>
+      </article>
+
+      <article class="panel achievements" id="tournaments">
+        <div class="section-title"><span>03</span><h2>ACHIEVEMENTS</h2></div>
+        <div class="achievement-grid">
+          <div><strong>🏆</strong><b>10+</b><small>Booyah Wins</small></div>
+          <div><strong>⚔️</strong><b>15+</b><small>Tournament Wins</small></div>
+          <div><strong>⭐</strong><b>Level 5</b><small>Guild Level</small></div>
+          <div><strong>🔥</strong><b>3x</b><small>Top 100</small></div>
+        </div>
+      </article>
+
+      <article class="panel news" id="news">
+        <div class="section-title"><span>04</span><h2>LATEST <i>NEWS</i></h2></div>
+        <div class="news-item"><b>ONEPIECE Guild Tournament</b><small>Registrations Open Now! · Apr 28, 2025</small></div>
+        <div class="news-item"><b>New Member Recruitment</b><small>Join the ONEPIECE Family! · Apr 25, 2025</small></div>
+        <div class="news-item"><b>Guild Achievements</b><small>Reached 50+ Active Members! · Apr 20, 2025</small></div>
+      </article>
+
+      <article class="panel gallery" id="gallery">
+        <div class="section-title"><span>05</span><h2>GALLERY</h2></div>
+        <div class="gallery-grid">
+          <div class="shot">BOOYAH!</div><div class="shot">ONE TEAM</div><div class="shot">ONE DREAM</div><div class="shot">TOGETHER</div>
+        </div>
+      </article>
+
+      <article class="panel join-card" id="join">
+        <div class="section-title"><span>06</span><h2>JOIN OUR <i>GUILD</i></h2></div>
+        <p>Ready to become part of ONEPIECE? Send your application and the guild team can contact you.</p>
+        <form id="joinForm">
+          <input required name="name" placeholder="Player name">
+          <input required name="uid" inputmode="numeric" placeholder="Free Fire UID">
+          <select name="rank"><option>Heroic</option><option>Master</option><option>Diamond</option><option>Other</option></select>
+          <input name="contact" placeholder="WhatsApp / Discord">
+          <button class="primary-btn" type="submit">Apply Now →</button>
+        </form>
+        <p class="form-note" id="formNote" role="status"></p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <div class="brand footer-brand"><span>ONE PIECE</span></div>
+    <p>© <span id="year"></span> ONEPIECE FF Guild. All rights reserved.</p>
+    <p class="footer-tag">THE PIRATES OF FREE FIRE</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
